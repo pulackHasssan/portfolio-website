@@ -1,0 +1,17 @@
+.banner-style{
+    height: 600px;
+}
+.main-button{
+    background: rgb(252, 150, 16);
+    background: linear-gradient(to left,  rgb(252, 150, 16) 50%, rgb(37, 92, 32) 50%) right;
+    display: inline-block;
+    background-size: 200%;
+    padding: 5px;
+    border-radius: 7px;
+    transition: .3s all ease-out;
+}
+.main-button:hover{
+    background-color: green;
+    background-position: left;
+    color: white;
+}
