@@ -2,6 +2,7 @@
     height: 600px;
 }
 .main-button{
+    color: black;
     background: rgb(252, 150, 16);
     background: linear-gradient(to left,  rgb(252, 150, 16) 50%, rgb(37, 92, 32) 50%) right;
     display: inline-block;
@@ -14,4 +15,5 @@
     background-color: green;
     background-position: left;
     color: white;
+    text-decoration: none;
 }

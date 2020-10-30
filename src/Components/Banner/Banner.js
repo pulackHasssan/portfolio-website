@@ -16,7 +16,7 @@ const Banner = () => {
             ]}
                 />
             </h4>
-            <button className="main-button">Download My Resume</button>
+            <a href="https://drive.google.com/file/d/1bVITR9k3uWIuh6j1jXXhUm4VzerYvUgy/view?usp=sharing" className="main-button" target="_blank">Download My Resume </a>
 
         </div>
     );
