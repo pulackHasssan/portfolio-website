@@ -6,7 +6,7 @@ const About = () => {
     return (
       <div>
           <Navigation/>
-            <div className='container'>
+            <div className='container about-style'>
             <div className='row'>
                 <div className='col-md-6 col-sm-12 text-justify'>
                     <h2>Personal Information:</h2>

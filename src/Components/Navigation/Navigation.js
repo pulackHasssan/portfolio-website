@@ -1,5 +1,6 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import "./Navigation.css";
 const Navigation = () => {
     return (
@@ -11,11 +12,11 @@ const Navigation = () => {
 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 <Navbar.Collapse id="basic-navbar-nav">
 <Nav justify className="ml-auto">
-<Nav.Link>Home</Nav.Link>
-<Nav.Link>About Me</Nav.Link>
-<Nav.Link>My Projects</Nav.Link>
-<Nav.Link>Contact Me</Nav.Link>
-<Nav.Link>Blogs</Nav.Link>
+<Nav.Link><Link className='nav-link-style' to='/home'>Home</Link></Nav.Link>
+<Nav.Link><Link className='nav-link-style' to='/about'>About Me</Link></Nav.Link>
+<Nav.Link><Link className='nav-link-style' to='/myproject'>My Projects</Link></Nav.Link>
+<Nav.Link><Link className='nav-link-style' to='/contact'>Contact Me</Link></Nav.Link>
+<Nav.Link><Link className='nav-link-style' to='/blog'>Blogs</Link></Nav.Link>
 </Nav>
 </Navbar.Collapse>
 </Navbar>

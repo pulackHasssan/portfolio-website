@@ -1,14 +1,14 @@
 import './App.css';
 import About from './Components/About/About';
-import Banner from './Components/Banner/Banner';
-import Navigation from './Components/Navigation/Navigation';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Home from './Components/Home/Home';
+import Myproject from './Components/Myproject/Myproject';
+import Contact from './Components/Contact/Contact';
+import Blogs from './Components/Blogs/Blogs';
 function App() {
   return (
     <div className="App">
@@ -22,6 +22,15 @@ function App() {
        </Route>
        <Route path='/about'>
         <About/>
+       </Route>
+       <Route path='/myproject'>
+        <Myproject/>
+       </Route>
+       <Route path='/contact'>
+         <Contact/>
+       </Route>
+       <Route path='/blog'>
+         <Blogs/>
        </Route>
      </Switch>
    </Router>

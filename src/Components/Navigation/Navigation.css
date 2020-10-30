@@ -1,0 +1,7 @@
+.nav-link-style{
+    color: black;
+}
+.nav-link-style:hover{
+    text-decoration: none;
+    color: honeydew;
+}
