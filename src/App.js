@@ -9,10 +9,23 @@ import Home from './Components/Home/Home';
 import Myproject from './Components/Myproject/Myproject';
 import Contact from './Components/Contact/Contact';
 import Blogs from './Components/Blogs/Blogs';
+import ParticleComponents from './Components/ParticleComponent/ParticleComponents';
 function App() {
   return (
     <div className="App">
    <Router>
+   {/* <div
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%"
+        }}
+      >
+     <ParticleComponents/>
+   
+        </div> */}
      <Switch>
        <Route exact path='/'>
          <Home/>

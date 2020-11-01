@@ -1,6 +1,8 @@
 .banner-style{
-    height: 600px;
+    background:#2d2d2d ;
+    min-height: 500px;
 }
+
 .main-button{
     color: black;
     background: rgb(252, 150, 16);
@@ -16,4 +18,97 @@
     background-position: left;
     color: white;
     text-decoration: none;
+}
+.welcome-style{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green;
+}
+.Iam {
+    padding: 2px 5px;
+    font: normal 25px/50px "Comic Sans MS", cursive, sans-serif;
+    color: #999;
+  }
+  .Iam p {
+    height: 20px;
+    float: left;
+    margin-right: 0.3em;
+  }
+  .Iam b {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    height: 40px;
+    top: 0px;
+  }
+  .Iam .innerIam {
+    display: inline-block;
+    color: #e74c3c;
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+  
+  
+  /*animation*/
+  -webkit-animation:move 8s;
+     -moz-animation:move 8s;
+      -ms-animation:move 8s;
+       -o-animation:move 8s;
+          animation:move 8s;
+  /*animation-iteration-count*/
+  -webkit-animation-iteration-count:infinite;
+     -moz-animation-iteration-count:infinite;
+      -ms-animation-iteration-count:infinite;
+       -o-animation-iteration-count:infinite;
+          animation-iteration-count:infinite;
+  /*animation-delay*/
+  -webkit-animation-delay:3s;
+     -moz-animation-delay:3s;
+      -ms-animation-delay:3s;
+       -o-animation-delay:3s;
+          animation-delay:3s;
+  }
+  @keyframes move{
+  0%  { top: 0px; }
+  20% { top: -50px; }
+  40% { top: -100px; }
+  60% { top: -150px; }
+  80% { top: -200px; }
+  }
+  
+  @-webkit-keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
+  @-moz-keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
+  @-o-keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
+  @keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
+
+.img-div{
+   
+overflow: hidden;
+    height: 420px;
+}
+.img-sizing{
 }

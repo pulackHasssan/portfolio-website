@@ -4,20 +4,31 @@ import Typical from 'react-typical';
 const Banner = () => {
     return (
         <div className="text-center banner-style">
-           <h1>Welcome!</h1>
-            <h4>I am 
-                <Typical
-                loop={Infinity}
-                wrapper='b'
-                steps={[' Pulack Hassan', 1000,
-                        ' a frontend web developer.', 1000, 
-                        ' a React.js developer.', 1000,
-                        ' a MERN developer.', 1000
-            ]}
-                />
-            </h4>
-            <a href="https://drive.google.com/file/d/1bVITR9k3uWIuh6j1jXXhUm4VzerYvUgy/view?usp=sharing" className="main-button" target="_blank">Download My Resume </a>
+        <div className="container">
+        <h1 className="welcome-style">Welcome!</h1>
+           <br/>
+          <div className="container text-center row">
+          <div className="Iam col-md-6 col-sm-12">
 
+<p>I am</p>
+<b>
+  <div class="innerIam">
+      Pulack Hassan<br/>
+    a web developer<br />
+    a javascript developer<br/> 
+    a react.js developer<br />
+    a mern developer<br />
+    </div>
+</b>
+            <br/>
+            <br/>
+            <a href="https://drive.google.com/file/d/1dWTATdkaTtc0e9CLHZ9kVv9Rm5egcsFw/view?usp=sharing" className="main-button" target="_blank">Download Resume </a>
+            </div>
+            <div className="img-div col-md-6 col-sm-12">
+                <img src="https://i.ibb.co/T0C80dG/edited-for-website.png" className="img-sizing img-fluid" alt=""/>
+            </div>
+          </div>
+        </div>
         </div>
     );
 };

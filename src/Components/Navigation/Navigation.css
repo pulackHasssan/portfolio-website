@@ -1,7 +1,25 @@
+.nav-text{
+    background: linear-gradient(darkblue, blue);
+    margin-bottom: 50px;
+}
 .nav-link-style{
-    color: black;
+    color: rgba(252, 252, 252, 0.932);
+    transition: .3s all ease-in-out;
 }
 .nav-link-style:hover{
     text-decoration: none;
-    color: honeydew;
+    color: rgb(18, 219, 18);
 }
+.logo-text-style {
+    text-transform: Uppercase;
+    margin-bottom: .5em;
+    font-size: 20px;
+    color: #e7e7e7; 
+
+}
+.nav-link-style, .logo-text-style{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+    

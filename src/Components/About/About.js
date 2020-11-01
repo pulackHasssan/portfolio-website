@@ -19,44 +19,18 @@ const About = () => {
                     <p>Facebook: https://www.facebook.com/pulack.iglesias/</p>
                 </div>
                 <div className='col-md-6 col-sm-12'>
-                    <img src="https://i.ibb.co/0Mwrt1Z/service3.png" alt="" className='img-fluid img-style'/>
+                    <img src="https://i.ibb.co/tQjdk9Z/IMG-20201030-185652-removebg-preview.png" alt="" className='img-fluid img-style' style={{height: '400px'}}/>
                 </div>
             </div>
             <h2>Skills</h2> <br/>
-            <div className='row text-justify'>
-            
-                <div className='col-md-4'>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>BOOTSTRAP</li>
-                        <li>JAVASCRIPT</li>
-                        <li>REACT.JS</li>
-                        <li>MONGODB</li>
-                    </ul>
-                </div>
-                <div className='col-md-4'>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-                <div className='col-md-4'>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-
-
+            <div className='d-flex align-content-end flex-wrap'>
+                <h4 className="skill-style">HTML</h4>
+                <h4 className="skill-style">CSS</h4>
+                <h4 className="skill-style">JAVASCRIPT</h4>
+                <h4 className="skill-style">REACT.JS</h4>
+                <h4 className="skill-style">NODE.JS</h4>
+                <h4 className="skill-style">EXPRESS.JS</h4>
+                <h4 className="skill-style">MONGODB</h4>
 
             </div>
         </div>

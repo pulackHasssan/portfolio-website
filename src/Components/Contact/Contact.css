@@ -1,0 +1,19 @@
+.form-style{
+    margin: 40px auto;
+    min-height: 200px;
+    width: 400px;
+    border-left: 5px solid green;
+    padding-bottom: 10px;
+}
+input{
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+}
+textarea{
+    width: 300px;
+    border-radius: 10px;
+}
+.contact-header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

@@ -1,6 +1,9 @@
 .img-style{
-    border-readius: 50%;
+    border-radius: 50%;
 }
-.about-style{
-    height: 600px;
+.skill-style{
+    padding: 7px;
+    border-left: 4px solid green;
+    border-bottom: 2px solid green;
+    margin-right: 10px;
 }
